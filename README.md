@@ -13,13 +13,14 @@
 | action_verb   | char(1)    | request type    |
 
 ### File Structure
-
+```python
 ~/flask-api
-    *|-- config.py
-    *|-- database.py
-    *|-- alembic.ini
-    *|__ /venv              # Virtual Environment (/lib/alembic/)
-    *|__ /api               # fizzbuz API
+    |-- config.py
+    |-- database.py
+    |-- alembic.ini
+    |__ /venv              # Virtual Environment (/lib/alembic/)
+    |__ /api               # fizzbuz API
          |-- controllers.py
          |-- model.py
     |__ /log
+```
